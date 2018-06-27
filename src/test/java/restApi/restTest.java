@@ -22,6 +22,6 @@ public class restTest {
             get("https://www.wallpics.com").
         then().
             assertThat().
-            body(containsString("Order Wallpics")).log().all();
+            body(containsString("Get Started")).log().all();
     }
 }
